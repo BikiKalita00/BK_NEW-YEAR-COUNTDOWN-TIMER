@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+* {
+  box-sizing: border-box;
+}
+.body {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-image: url('backk.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.countdown {
+  font-size: 16px;
+  display: flex;
+  transform: scale(2);
+  position: relative;
+  top: 20px;
+  color: #fdb700;
+  font-family: 'Dongle', sans-serif;
+  text-shadow: 0 0 6px white;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 40px;
+  position: relative;
+  top: -100px;
+  font-family: Lora;
+  text-shadow: 0 0 6px white;
+  color: rgb(255,0,0);
+}
+.n {
+  color: rgb(236,13,13);
+  text-shadow: 0 0 5px white;
+  position: relative;
+  top: -20px;
+}
+#ye{
+  color: black;
+  position: relative;
+  top: 60px;
+  font-family: Lora;
+  text-shadow: 0 0 6px black;
+  color: gray;
+  font-size: 19vh;
+}
